@@ -1,1 +1,2 @@
-Feito por Guilherme Tamashiro e Felipe Mendes
+# Atividade de vetores TPA
+Feito por: Felipe Mendes e Guilherme Tamashiro
