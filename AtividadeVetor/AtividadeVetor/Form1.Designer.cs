@@ -55,7 +55,7 @@
             this.tsm2,
             this.tsmi3});
             this.exercíciosToolStripMenuItem.Name = "exercíciosToolStripMenuItem";
-            this.exercíciosToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
+            this.exercíciosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.exercíciosToolStripMenuItem.Text = "Exercícios";
             // 
             // tsmi1
@@ -77,6 +77,7 @@
             this.tsmi3.Name = "tsmi3";
             this.tsmi3.Size = new System.Drawing.Size(180, 22);
             this.tsmi3.Text = "3";
+            this.tsmi3.Click += new System.EventHandler(this.tsmi3_Click);
             // 
             // tsmiSair
             // 

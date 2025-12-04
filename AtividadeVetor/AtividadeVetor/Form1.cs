@@ -35,5 +35,12 @@ namespace AtividadeVetor
             Hide();
             exercicio2.Show();
         }
+
+        private void tsmi3_Click(object sender, EventArgs e)
+        {
+            frm3 exercicio3 = new frm3();
+            Hide();
+            exercicio3.Show();
+        }
     }
 }

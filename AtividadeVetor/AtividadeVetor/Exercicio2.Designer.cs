@@ -47,6 +47,7 @@
             this.btnLimpar.TabIndex = 3;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnVoltar
             // 
@@ -73,12 +74,13 @@
             // btnCalc
             // 
             this.btnCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalc.Location = new System.Drawing.Point(240, 386);
+            this.btnCalc.Location = new System.Drawing.Point(220, 386);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(104, 35);
             this.btnCalc.TabIndex = 9;
             this.btnCalc.Text = "Calcular";
             this.btnCalc.UseVisualStyleBackColor = true;
+            this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
             // 
             // lblNum1
             // 
