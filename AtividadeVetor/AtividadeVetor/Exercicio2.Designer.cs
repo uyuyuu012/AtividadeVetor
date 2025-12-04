@@ -30,12 +30,18 @@
         {
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnCalc = new System.Windows.Forms.Button();
+            this.lblNum1 = new System.Windows.Forms.Label();
+            this.txtNum1 = new System.Windows.Forms.TextBox();
+            this.txtMatA = new System.Windows.Forms.TextBox();
+            this.txtMatB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnLimpar
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(492, 376);
+            this.btnLimpar.Location = new System.Drawing.Point(450, 386);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(104, 35);
             this.btnLimpar.TabIndex = 3;
@@ -45,7 +51,7 @@
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(652, 376);
+            this.btnVoltar.Location = new System.Drawing.Point(655, 386);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(104, 35);
             this.btnVoltar.TabIndex = 2;
@@ -53,18 +59,86 @@
             this.btnVoltar.UseVisualStyleBackColor = true;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
+            // btnAdd
+            // 
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(24, 386);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(104, 35);
+            this.btnAdd.TabIndex = 8;
+            this.btnAdd.Text = "Adicionar";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnCalc
+            // 
+            this.btnCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalc.Location = new System.Drawing.Point(240, 386);
+            this.btnCalc.Name = "btnCalc";
+            this.btnCalc.Size = new System.Drawing.Size(104, 35);
+            this.btnCalc.TabIndex = 9;
+            this.btnCalc.Text = "Calcular";
+            this.btnCalc.UseVisualStyleBackColor = true;
+            // 
+            // lblNum1
+            // 
+            this.lblNum1.AutoSize = true;
+            this.lblNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum1.Location = new System.Drawing.Point(31, 30);
+            this.lblNum1.Name = "lblNum1";
+            this.lblNum1.Size = new System.Drawing.Size(138, 20);
+            this.lblNum1.TabIndex = 13;
+            this.lblNum1.Text = "Digite um número:";
+            // 
+            // txtNum1
+            // 
+            this.txtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNum1.Location = new System.Drawing.Point(240, 30);
+            this.txtNum1.Name = "txtNum1";
+            this.txtNum1.Size = new System.Drawing.Size(148, 26);
+            this.txtNum1.TabIndex = 14;
+            // 
+            // txtMatA
+            // 
+            this.txtMatA.Enabled = false;
+            this.txtMatA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMatA.Location = new System.Drawing.Point(299, 62);
+            this.txtMatA.Multiline = true;
+            this.txtMatA.Name = "txtMatA";
+            this.txtMatA.ReadOnly = true;
+            this.txtMatA.Size = new System.Drawing.Size(187, 292);
+            this.txtMatA.TabIndex = 16;
+            // 
+            // txtMatB
+            // 
+            this.txtMatB.Enabled = false;
+            this.txtMatB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMatB.Location = new System.Drawing.Point(569, 62);
+            this.txtMatB.Multiline = true;
+            this.txtMatB.Name = "txtMatB";
+            this.txtMatB.ReadOnly = true;
+            this.txtMatB.Size = new System.Drawing.Size(187, 292);
+            this.txtMatB.TabIndex = 17;
+            // 
             // frm2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.txtMatB);
+            this.Controls.Add(this.txtMatA);
+            this.Controls.Add(this.txtNum1);
+            this.Controls.Add(this.lblNum1);
+            this.Controls.Add(this.btnCalc);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnVoltar);
             this.Name = "frm2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercicio 2";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -72,5 +146,11 @@
 
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnCalc;
+        private System.Windows.Forms.Label lblNum1;
+        private System.Windows.Forms.TextBox txtNum1;
+        private System.Windows.Forms.TextBox txtMatA;
+        private System.Windows.Forms.TextBox txtMatB;
     }
 }

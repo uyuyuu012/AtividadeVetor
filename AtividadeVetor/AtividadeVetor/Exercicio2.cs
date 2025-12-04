@@ -12,6 +12,9 @@ namespace AtividadeVetor
 {
     public partial class frm2 : Form
     {
+        double areatot = 0.0;
+        DialogResult resposta;
+
         public frm2()
         {
             InitializeComponent();
@@ -22,6 +25,14 @@ namespace AtividadeVetor
             frmMenu menu = new frmMenu();
             Hide();
             menu.Show();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            
+           
+
+
         }
     }
 }

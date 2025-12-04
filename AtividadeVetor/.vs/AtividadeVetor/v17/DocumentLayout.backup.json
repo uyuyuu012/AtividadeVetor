@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\",
+  "WorkspaceRootPath": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|c:\\users\\1ds\\desktop\\atividadevetor\\atividadevetor\\atividadevetor\\exercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|solutionrelative:atividadevetor\\exercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\atividadevetor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|solutionrelative:atividadevetor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\atividadevetor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|solutionrelative:atividadevetor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\atividadevetor\\exercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\atividadevetor\\exercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|solutionrelative:atividadevetor\\exercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\atividadevetor\\exercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\atividadevetor\\exercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|solutionrelative:atividadevetor\\exercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|c:\\users\\1ds\\desktop\\atividadevetor\\atividadevetor\\atividadevetor\\exercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|solutionrelative:atividadevetor\\exercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\atividadevetor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{070AED32-D160-4558-9559-6D0ABCD0F45D}|AtividadeVetor\\AtividadeVetor.csproj|solutionrelative:atividadevetor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,66 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Form1.cs",
-              "RelativeDocumentMoniker": "AtividadeVetor\\Form1.cs",
-              "ToolTip": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Form1.cs",
-              "RelativeToolTip": "AtividadeVetor\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:44:46.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Exercicio2.cs",
-              "DocumentMoniker": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio2.cs",
-              "RelativeDocumentMoniker": "AtividadeVetor\\Exercicio2.cs",
-              "ToolTip": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio2.cs",
-              "RelativeToolTip": "AtividadeVetor\\Exercicio2.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:44:31.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Exercicio2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio2.cs",
-              "RelativeDocumentMoniker": "AtividadeVetor\\Exercicio2.cs",
-              "ToolTip": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio2.cs [Design]",
-              "RelativeToolTip": "AtividadeVetor\\Exercicio2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:43:22.114Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Form1.cs",
-              "RelativeDocumentMoniker": "AtividadeVetor\\Form1.cs",
-              "ToolTip": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Form1.cs [Design]",
-              "RelativeToolTip": "AtividadeVetor\\Form1.cs [Design]",
+              "Title": "Exercicio1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio1.cs",
+              "RelativeDocumentMoniker": "AtividadeVetor\\Exercicio1.cs",
+              "ToolTip": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio1.cs [Design]",
+              "RelativeToolTip": "AtividadeVetor\\Exercicio1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:42:59.039Z"
+              "WhenOpened": "2025-12-04T13:35:04.441Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exercicio2.cs",
+              "DocumentMoniker": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio2.cs",
+              "RelativeDocumentMoniker": "AtividadeVetor\\Exercicio2.cs",
+              "ToolTip": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio2.cs",
+              "RelativeToolTip": "AtividadeVetor\\Exercicio2.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T14:44:31.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Exercicio1.cs",
-              "DocumentMoniker": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio1.cs",
-              "RelativeDocumentMoniker": "AtividadeVetor\\Exercicio1.cs",
-              "ToolTip": "C:\\Users\\1ds\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio1.cs",
-              "RelativeToolTip": "AtividadeVetor\\Exercicio1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACcAAAAoAAAAAAAAAA==",
+              "Title": "Exercicio2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio2.cs",
+              "RelativeDocumentMoniker": "AtividadeVetor\\Exercicio2.cs",
+              "ToolTip": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Exercicio2.cs [Design]",
+              "RelativeToolTip": "AtividadeVetor\\Exercicio2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:39:07.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T14:43:22.114Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Form1.cs",
+              "RelativeDocumentMoniker": "AtividadeVetor\\Form1.cs",
+              "ToolTip": "C:\\Users\\1DS\\Desktop\\AtividadeVetor\\AtividadeVetor\\AtividadeVetor\\Form1.cs [Design]",
+              "RelativeToolTip": "AtividadeVetor\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T14:42:59.039Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

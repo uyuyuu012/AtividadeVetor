@@ -17,7 +17,7 @@ namespace AtividadeVetor
             InitializeComponent();
         }
 
-        int[] matrizA = new int[15];
+        double[] matrizA = new double[15];
         int contador = 0;   
 
         private void btnVoltar_Click(object sender, EventArgs e)
@@ -37,12 +37,13 @@ namespace AtividadeVetor
             {
                 int i;
 
-                int[] matrizB = new int[15];
+                double[] matrizB = new double[15];
 
                 for (i = 0; i < matrizA.Length; i++)
                 {
-                    matrizB[i] = matrizA[i] * matrizA[i];
-                    txtMatrizB.Text += Convert.ToString(matrizB[i]) + "\r\n";
+                    matrizB[i] = Math.Pow(matrizA[i], 2);
+                    txtMatA.Text += matrizA[i].ToString() + "\r\n";
+                    txtMatrizB.Text += matrizB[i].ToString() + "\r\n";
                 }
 
             }
@@ -56,7 +57,7 @@ namespace AtividadeVetor
             }
             else
             {
-                matrizA[contador] = Convert.ToInt32(txtMatrizA.Text);
+                matrizA[contador] = Convert.ToDouble(txtMatrizA.Text);
                 contador++;
                 txtMatrizA.Clear();
                 txtMatrizA.Focus();

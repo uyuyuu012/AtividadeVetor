@@ -35,12 +35,13 @@
             this.lblMatrizA = new System.Windows.Forms.Label();
             this.txtMatrizA = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.txtMatA = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(561, 373);
+            this.btnVoltar.Location = new System.Drawing.Point(576, 403);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(104, 35);
             this.btnVoltar.TabIndex = 0;
@@ -51,7 +52,7 @@
             // btnLimpar
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(401, 373);
+            this.btnLimpar.Location = new System.Drawing.Point(416, 403);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(104, 35);
             this.btnLimpar.TabIndex = 1;
@@ -62,7 +63,7 @@
             // btnCalc
             // 
             this.btnCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalc.Location = new System.Drawing.Point(238, 373);
+            this.btnCalc.Location = new System.Drawing.Point(253, 403);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(104, 35);
             this.btnCalc.TabIndex = 2;
@@ -73,7 +74,7 @@
             // txtMatrizB
             // 
             this.txtMatrizB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatrizB.Location = new System.Drawing.Point(540, 40);
+            this.txtMatrizB.Location = new System.Drawing.Point(546, 61);
             this.txtMatrizB.Multiline = true;
             this.txtMatrizB.Name = "txtMatrizB";
             this.txtMatrizB.ReadOnly = true;
@@ -84,7 +85,7 @@
             // 
             this.lblMatrizA.AutoSize = true;
             this.lblMatrizA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMatrizA.Location = new System.Drawing.Point(29, 43);
+            this.lblMatrizA.Location = new System.Drawing.Point(12, 9);
             this.lblMatrizA.Name = "lblMatrizA";
             this.lblMatrizA.Size = new System.Drawing.Size(313, 20);
             this.lblMatrizA.TabIndex = 5;
@@ -93,7 +94,7 @@
             // txtMatrizA
             // 
             this.txtMatrizA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatrizA.Location = new System.Drawing.Point(369, 43);
+            this.txtMatrizA.Location = new System.Drawing.Point(340, 9);
             this.txtMatrizA.Name = "txtMatrizA";
             this.txtMatrizA.Size = new System.Drawing.Size(148, 26);
             this.txtMatrizA.TabIndex = 6;
@@ -101,7 +102,7 @@
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(71, 373);
+            this.btnAdd.Location = new System.Drawing.Point(86, 403);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(104, 35);
             this.btnAdd.TabIndex = 7;
@@ -109,12 +110,23 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
+            // txtMatA
+            // 
+            this.txtMatA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMatA.Location = new System.Drawing.Point(303, 61);
+            this.txtMatA.Multiline = true;
+            this.txtMatA.Name = "txtMatA";
+            this.txtMatA.ReadOnly = true;
+            this.txtMatA.Size = new System.Drawing.Size(217, 313);
+            this.txtMatA.TabIndex = 8;
+            // 
             // frm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.txtMatA);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtMatrizA);
             this.Controls.Add(this.lblMatrizA);
@@ -139,5 +151,6 @@
         private System.Windows.Forms.Label lblMatrizA;
         private System.Windows.Forms.TextBox txtMatrizA;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TextBox txtMatA;
     }
 }
